@@ -54,6 +54,9 @@ Chatbot que fornece informações sobre o clima de uma cidade usando a API OpenW
 The following tools were used in this project:
 
 - [Node.js](https://nodejs.org/en/)
+- [Axios](https://axios-http.com/docs/intro)
+- [twilio](https://www.twilio.com/en-us)
+- [OpenWeatherMap](https://openweathermap.org/)
 
 ## :white_check_mark: Requirements ##
 
@@ -67,6 +70,15 @@ $ git clone https://github.com/JonatanRocha2/weather-wpp
 
 # Access
 $ cd weather-wpp
+
+# Install deps
+
+$ npm install dotenv 
+
+# Create .env file with your API KEY
+
+$ API_KEY=seu_api_key_aqui
+
 
 ```
 
